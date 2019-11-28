@@ -1,0 +1,51 @@
+h1 {
+  color: #1cac4c;
+  text-transform: uppercase;
+  font-weight: bolder;
+  font-family: josefin sans, sans-serif;
+  font-size: 60px;
+}
+
+#api h1::after {
+  content: "";
+  display: block;
+  border: 1px solid #1cac4c;
+  width: 50px;
+  margin: 0.5em auto;
+}
+
+#benefits {
+  display: flex;
+  flex-flow: column nowrap;
+  width: 80%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+body {
+  background-color: #f4f4f4;
+  font-family: roboto;
+}
+
+nav {
+  background-color: #1cac4c;
+}
+nav img {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  padding: 10px;
+}
+
+ul li {
+  font-size: 2em;
+  line-height: 2em;
+}
+
+footer {
+  background: #444444;
+  color: white;
+  padding: 5px;
+  margin-bottom: 0;
+  text-align: center;
+}
